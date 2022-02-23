@@ -1,0 +1,16 @@
+1: ValueError
+a,b = "anjali",15,2.3333   
+ValueError: too many values to unpack (expected 2)
+
+2: SyntaxError
+print a
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(a)?
+
+3: NameError
+b = abc
+NameError: name 'abc' is not defined
+
+4: IndexError
+a ="abc"
+print(a[3])
+IndexError: string index out of range
