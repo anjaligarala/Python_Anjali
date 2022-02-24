@@ -14,3 +14,8 @@ NameError: name 'abc' is not defined
 a ="abc"
 print(a[3])
 IndexError: string index out of range
+
+5: TypeError
+for i in 5:
+ print(i)
+TypeError: 'int' object is not iterable
