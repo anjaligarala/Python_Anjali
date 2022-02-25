@@ -1,3 +1,4 @@
+'''
 >>> l = [1,2,3,4,5] 
 >>> type(l) 
 <class 'list'>
@@ -188,3 +189,4 @@ TypeError: extend() takes exactly one argument (3 given)
 >>> l2.extend([4,4,4]) 
 >>> l2
 [1, 2, [1, 2, 3], 3, 4, 5, 6, 7, 8, 9, 10, 10, 2, 3, 4, [1, 2, 3], 4, 4, 4]
+'''
