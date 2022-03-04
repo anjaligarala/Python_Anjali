@@ -19,3 +19,8 @@ IndexError: string index out of range
 for i in 5:
  print(i)
 TypeError: 'int' object is not iterable
+
+6. KeyError
+dict = {"Name" : "anjali", "Age" : 28 }
+print(dict["Naaa"])
+KeyError: 'Naaa'
