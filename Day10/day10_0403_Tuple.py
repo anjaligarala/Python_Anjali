@@ -5,4 +5,4 @@ for element_count in tuple01:
     dict01[element_count] = tuple01.count(element_count)
 print(dict01)
 
-from collections import Counter
+# from collections import Counter
