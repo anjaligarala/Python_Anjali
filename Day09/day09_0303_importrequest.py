@@ -11,7 +11,7 @@ import json
 
 
 url = "https://api.github.com/user/repos"
-token = "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"
+token = "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"
 headers = {"Authorization": f"token {token}"}
 repository_name = input("Enter your repos name:")
 data = {"name": f"{repository_name}"}
@@ -22,4 +22,5 @@ url_delete = f"https://api.github.com/repos/{username}/{repository_name}"
 # requests.post(url, data=json.dumps(data), headers=headers)
 
 # API to delete repo
-# requests.delete(url_delete, headers=headers)
+response = requests.delete(url_delete, headers=headers)
+print(response.status_code)
